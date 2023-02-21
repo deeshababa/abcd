@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -9,10 +9,10 @@ export default function Home() {
         </Link>
       </li>
       <li>
-        <Link href="/b" as="/b">
+        <Link href="/routes/a" as="/b">
           b
         </Link>
       </li>
     </ul>
-  )
+  );
 }
