@@ -18,7 +18,7 @@ export default function Home() {
           href={{
             pathname: `/routes/[a]`,
             query: {
-              title: "Hello", // should be `title` not `id`
+              a: "Hello", // should be `title` not `id`
             },
           }}
         >
