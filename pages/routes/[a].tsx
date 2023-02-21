@@ -1,3 +1,7 @@
+import { useRouter } from "next/router";
+
 export default function A() {
-  return <div>a</div>
+  const router = useRouter();
+  console.log(router);
+  return <div>a</div>;
 }
