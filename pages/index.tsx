@@ -13,6 +13,19 @@ export default function Home() {
           b
         </Link>
       </li>
+      <li>
+        <Link
+          href={{
+            pathname: `/routes/[a]`,
+            query: {
+              title: "Hello", // should be `title` not `id`
+            },
+          }}
+        >
+          dynamic link
+        </Link>
+        ;
+      </li>
     </ul>
   );
 }
