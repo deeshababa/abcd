@@ -9,9 +9,7 @@ export default function Home() {
         </Link>
       </li>
       <li>
-        <Link href="/routes/a" as="/b">
-          b
-        </Link>
+        <Link href="/routes/a">b</Link>
       </li>
     </ul>
   );
