@@ -4,7 +4,7 @@
     "dev": "nodemon",
     "build": "next build && tsc --project tsconfig.server.json",
     "start": "cross-env NODE_ENV=production node dist/server.js",
-    "staticBuild":"next build && next export"
+    "staticBuild": "next build && next export"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
